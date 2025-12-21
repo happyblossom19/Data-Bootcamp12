@@ -1,7 +1,18 @@
-#PDF HUB 
+# Welcome to My Bootcamp Projects
 
-##Upload PDF file to git hub
+## Technologies that I use
 
-lets' go ✌️
+- google
+- sql
+- R
+- Python
+- Essential Statistics
+- Essential Machine learning
+- learning how to learn
 
-by mark down .md
+## My Websites
+
+
+## Contact me
+
+Email: 
