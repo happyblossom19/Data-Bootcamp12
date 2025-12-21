@@ -1,0 +1,30 @@
+modules = ["r-4.5"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+packages = ["rPackages.dplyr"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Run R Script"
+
+[[workflows.workflow]]
+name = "Run R Script"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "Rscript project/data-transformation.r"
+
+[workflows.workflow.metadata]
+outputType = "console"

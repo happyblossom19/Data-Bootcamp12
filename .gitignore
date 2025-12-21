@@ -1,0 +1,25 @@
+# R files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Session Data files
+.RDataTmp
+
+# R Environment Variables
+.Renviron
+
+# packrat
+packrat/lib*/
+
+# renv
+renv/library/
+renv/python/
+renv/staging/
+renv/sandbox/
+
+# Temp files
+*~
+*.tmp
