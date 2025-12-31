@@ -1,1 +1,1 @@
-
+collect syntax in class
